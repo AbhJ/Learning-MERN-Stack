@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"server","dependencies":{"body-parser":{"version":"1.19.0"},"cors":{"version":"2.8.5"},"express":{"version":"4.17.1"},"mongoose":{"version":"5.13.8"},"nodemon":{"version":"2.0.12"}}}
