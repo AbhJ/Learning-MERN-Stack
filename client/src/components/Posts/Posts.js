@@ -1,8 +1,10 @@
 import React from 'react';
 import Post from './Post/Post';
 import useStyles from './styles';
+import { useSelector } from 'react-redux';
 
 const Posts = () => {
+	const posts =
 	const classes = useStyles();
 	return (
 		<div>
@@ -13,4 +15,4 @@ const Posts = () => {
 	)
 }
 
-export default Posts;
+export default Post;;

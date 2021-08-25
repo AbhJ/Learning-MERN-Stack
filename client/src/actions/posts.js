@@ -7,8 +7,12 @@ import * as api from '../api';
 const getPosts = () => async (dispatch) => {
 	try
 	{
-		const { data } = await
+		const {data} = await api.fetchPosts();
+		dispatch({type: 'FETCH_ALL', payload: data});
 	}
-	const action = { type: 'FETCH_ALL', payload: [] };
+	catch (error)
+	{
+		console.error(error);
+	}
 	return action;
-}
+};
