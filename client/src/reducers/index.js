@@ -7,4 +7,4 @@ const index = () => {
 	posts,
 }
 
-export default index;
+export default combineReducers(index);
